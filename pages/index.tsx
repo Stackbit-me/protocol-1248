@@ -114,6 +114,11 @@ const useStyles = makeStyles(() => ({
     textAlign: "center",
     textTransform: "uppercase",
   },
+  paragraph: {
+    fontSize: 16,
+    textAlign: "center",
+    color: "#6b6a6a",
+  },
   title: {
     marginTop: 50,
     fontSize: 50,
@@ -409,6 +414,14 @@ const Home: NextPage = () => {
           gutterBottom
         >
           stackbit metal wallet tool
+        </Typography>
+        <Typography
+          className={classes.paragraph}
+          variant="p"
+          component="p"
+          gutterBottom
+        >
+          Understand how to mark your metal plate. Remember to always keep your seed safe
         </Typography>
         <DebounceInput
           className={classes.textareaClass}
